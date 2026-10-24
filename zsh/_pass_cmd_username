@@ -1,0 +1,5 @@
+#autoload
+
+_arguments : \
+  '(-c --clip)'{-c,--clip}'[copia lo username negli appunti]' \
+  ':pass-name:_pass_complete_entries'
